@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-right_arrow">
+      <rect width="58" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="right_arrow" data-name="right arrow" clip-path="url(#clip-right_arrow)">
+    <g id="Group_1849" data-name="Group 1849">
+      <g id="Ellipse_400" data-name="Ellipse 400" fill="none" stroke="#707070" stroke-width="2">
+        <circle cx="29" cy="29" r="29" stroke="none"/>
+        <circle cx="29" cy="29" r="28" fill="none"/>
+      </g>
+      <path id="Path_2418" data-name="Path 2418" d="M493.387,385.746,510.4,402.7a.629.629,0,0,1,0,.74L493.387,420.4a.557.557,0,0,1-.688,0l-2.166-2.218,14.792-14.738a.635.635,0,0,0,0-.74l-14.792-14.738,2.166-2.218a.452.452,0,0,1,.688,0Z" transform="translate(-471.293 -373.838)" fill="#727270" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

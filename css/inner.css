@@ -1,0 +1,216 @@
+.custom-label {
+  color: #000000;
+  font-size: 13px;
+  font-family: poppins-SemiBold;
+  margin-bottom: 0;
+}
+
+.custom-inp {
+  border-radius: 0px;
+  border: 1px solid #824d14;
+  background-color: #ffffff;
+  outline: none;
+  color: #824d14;
+  font-size: 13px;
+  font-family: poppins-SemiBold;
+}
+
+.custom-inp:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  border: 1px solid #824d14;
+}
+
+.custom-btn {
+  width: 140px;
+  height: 35px;
+  font-size: 14px;
+  background: #f36969;
+  color: #ffffff;
+  font-family: poppins-SemiBold;
+  outline: none;
+  border: 0px;
+  border-radius: 6px;
+  margin-top: 4%;
+  cursor: pointer;
+  -webkit-transition: all 350ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 350ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+}
+
+.custom-btn:hover {
+  background-color: #f36969;
+  color: #ffffff;
+}
+
+.about, .contact {
+  min-height: 40vh;
+  background-position: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 1%;
+}
+
+.about .home-content, .contact .home-content {
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+.about .home-content .home-subtitle, .contact .home-content .home-subtitle {
+  font-size: 16px;
+}
+
+.about .home-content .home-title, .contact .home-content .home-title {
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#3e3d3d), color-stop(50%, #3e3d3d), color-stop(50%, #e95b31), to(#e95b31));
+  background: linear-gradient(to right, #3e3d3d 0%, #3e3d3d 50%, #e95b31 50%, #e95b31 100%);
+  margin-bottom: 3%;
+}
+
+.about-title {
+  font-family: poppins-Medium;
+  margin-bottom: 4%;
+  color: #2a2727;
+}
+
+.about-content {
+  color: #2a2727;
+  font-family: opensans-SemiBold;
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 4%;
+}
+
+.about-img {
+  width: 60%;
+}
+
+.global-title {
+  font-family: poppins-Medium;
+  margin-bottom: 4%;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.global-content {
+  color: #ffffff;
+  font-family: opensans-Regular;
+  font-size: 13px;
+  margin-bottom: 2%;
+}
+
+.text-color {
+  color: #161616;
+}
+
+.home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home.about {
+  background-image: url("../images/inner/about-bg.png");
+}
+
+.home.contact {
+  background-image: url("../images/inner/contact-bg.png");
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(260deg, rgba(1, 74, 143, 0.8) 0%, rgba(13, 84, 150, 0.8) 50%, rgba(101, 151, 200, 0.4) 100%);
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.about-main {
+  background-image: url("../images/inner/fact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7% 0%;
+}
+
+.about-mission {
+  background-image: url("../images/inner/mission.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4% 0%;
+  position: relative;
+}
+
+.about-mission::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 1, 2, 0.86);
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.contact-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contact-address .contact-address-icon {
+  color: #f36969;
+  font-size: 20px;
+  font-family: opensans-Regular;
+  padding-right: 18px;
+}
+
+.contact-address .contact-address-content .contact-name {
+  color: #f36969;
+  font-size: 16px;
+  font-family: poppins-Medium;
+  margin-bottom: 0;
+}
+
+.contact-address .contact-address-content .contact-p {
+  color: #868686;
+  font-size: 14px;
+  font-family: opensans-Regular;
+}
+
+.contact-form {
+  position: relative;
+  width: 100%;
+}
+
+.contact-form .form-subtitle {
+  color: #000000;
+  font-size: 12px;
+  font-family: opensans-Regular;
+  margin-bottom: 0;
+}
+
+.contact-form .form-title {
+  font-family: poppins-Medium;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.contact-form .form-title span {
+  color: #f36969;
+}
+/*# sourceMappingURL=inner.css.map */
